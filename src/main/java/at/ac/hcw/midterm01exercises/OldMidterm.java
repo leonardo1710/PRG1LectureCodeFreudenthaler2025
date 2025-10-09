@@ -14,6 +14,9 @@ public class OldMidterm {
     lengthUnitConverter(-1) -> „Invalid value.“
      */
 
+    public static String lengthUnitConverter(int mm){
+        return "todo: implement me";
+    }
     /*
     Schreiben Sie eine Methode incomeStatistics, zur Berechnung der Statistik monatlichen Einkommens.
     Dabei werden von der Konsole solange ganze Zahlen (monatliches Einkommen) eingelesen, bis die Zahl
@@ -26,4 +29,8 @@ public class OldMidterm {
     Wurden bis zur Eingabe von 0 keine validen Zahlen eingegeben wird
     ebenfalls eine Fehlermeldung ausgegeben. Die Methode hat keinen Rückgabewert.
      */
+
+    public static void incomeStatistics(){
+        // todo: implement me
+    }
 }
