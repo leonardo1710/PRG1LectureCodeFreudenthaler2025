@@ -1,8 +1,6 @@
 package at.ac.hcw;
 
 public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-    int funA(){}
+    int count = 0;
+    int inc(){ count++;}
 }
