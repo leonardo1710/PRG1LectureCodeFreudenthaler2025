@@ -5,13 +5,7 @@ public class App {
         System.out.println("Hello World!");
     }
 
-    int isOdd(int num) {
-        if (num % 2 != 0) 
-        { 
-            return 1; 
-        } else 
-        { 
-            return 0; 
-        }
+    int fun(int num) {
+        return num * 2;
     }
 }
