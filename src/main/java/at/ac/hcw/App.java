@@ -5,7 +5,7 @@ public class App {
         System.out.println("Hello World!");
     }
 
-    int fun(int num) {
-        return num * 2;
+    int fun(int numB) {
+        return numB * 2;
     }
 }
