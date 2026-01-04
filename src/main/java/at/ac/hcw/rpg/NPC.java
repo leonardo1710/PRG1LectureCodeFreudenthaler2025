@@ -1,7 +1,5 @@
 package at.ac.hcw.rpg;
 
-import java.io.Serializable;
-
 public abstract class NPC {
     private String name;
     private int health;
@@ -11,6 +9,10 @@ public abstract class NPC {
         this.name = name;
         this.health = health;
         this.attackPower = attackPower;
+    }
+
+    public String getName(){
+        return this.name;
     }
 
     public int getHealth(){

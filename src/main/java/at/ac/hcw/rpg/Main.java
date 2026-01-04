@@ -2,9 +2,16 @@ package at.ac.hcw.rpg;
 
 public class Main {
     public static void main(String[] args) {
+
+
         Dwarf gimli = new Dwarf("Gimli");
         Elf legolas = new Elf("Legolas");
         Orc azog = new Orc("Azog");
+
+        gimli.buy("whatever");
+        legolas.sell("this", 200);
+
+
 
         azog.fight(legolas);
 
