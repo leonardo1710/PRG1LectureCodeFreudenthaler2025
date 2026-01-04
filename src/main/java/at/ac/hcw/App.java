@@ -4,8 +4,4 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
-
-    int fun(int numB) {
-        return numB * 2;
-    }
 }
