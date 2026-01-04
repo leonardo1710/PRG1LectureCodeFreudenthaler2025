@@ -1,6 +1,6 @@
 package at.ac.hcw;
 
 public class App {
-    int count = 0;
-    int inc(){ count++;}
+    int total = 0;
+    int inc(){ total++;}
 }
